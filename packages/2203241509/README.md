@@ -1,3 +1,5 @@
+Title: Failing to mock declared functions with jest.spyOn
+
 Question:
 
 I'm under the impression that jest.spyOn.mockImplementationOnce can mock a function as long as it is implemented as a function expression, but might fail to mock when the function is written as a function declaration. Why is it behaving like that?
