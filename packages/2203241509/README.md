@@ -52,6 +52,6 @@ All code can be found at my [playground repo's folder](https://github.com/vitore
 
 The result is that the function expression is mocked and the test passes, while the function declaration is not mocked and the test fails.
 
-Anecdotally, this seems to only happen if the function being mocked is not being called directly, instead it is being called by another function. When the declared function gets called directly, the tests passes.
+Anecdotally, this seems to only happen if the function being mocked is not being called directly, instead it is being called by another function. When the declared function gets called directly, the test passes.
 
 I would like to understand why that is so I can write better tests. 
