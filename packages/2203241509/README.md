@@ -48,7 +48,7 @@ describe('myFunction', () => {
 });
 ```
 
-All code can be found at my [playground repo's folder]()
+All code can be found at my [playground repo's folder](https://github.com/vitorelourenco/questions/tree/main/packages/2203241509)
 
 The result is that the function expression is mocked and the test passes, while the function declaration is not mocked and the test fails.
 
